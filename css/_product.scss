@@ -1,0 +1,60 @@
+#product-wrapper {
+	.title-content {
+		width: 420px;
+		margin:0 auto;
+		margin-top: 24px;
+		//background-color: yellow;
+	}
+	h2{
+		text-align: left;
+		color: #505050;
+		font: {
+			size: 27px;
+			family: 'Colab';
+			weight: bold;
+		}
+	}
+	p{	
+		color: #5f7390;
+	 	text-align: left;
+	 	font: {
+			size: 15px;
+			family: 'Colab';
+			
+		}
+	}
+
+	#ipad-product {
+		margin-left: 53px;
+		width: 450px;
+	}
+
+	ul {
+		margin-top: 60px;
+		list-style-image: url(../img/bullet.png);
+		li {
+			margin-bottom: 20px;
+			a {
+				color: #828181;
+				&:hover{
+					text-decoration-line: none;
+					color: #555;
+					cursor: pointer; 
+				}
+			}
+		}
+	}
+	
+	.btn {
+		font-size: 19px;
+		font-family: 'colab';
+		height: 40px;
+		width: 130px;
+		color:#fff;
+		margin-top: 10px;
+
+	}
+	.btn:nth-child(2){
+		margin-right: 20px;
+	}
+}

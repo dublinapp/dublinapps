@@ -1,0 +1,52 @@
+
+//text-shadow
+@function makelongshadow($color) {
+  $val: 0px 0px $color;
+  @for $i from 1 through 200 {
+    $val: #{$val}, #{$i}px #{$i}px #{$color};
+  }
+  @return $val;
+}
+
+
+
+    
+@font-face {
+    font-family: Alexandriaff;
+    src: url(../fonts/AlexandriaFLF.ttf);
+    src: url(../fonts/alexandriaflf-bold.ttf);
+}
+@font-face {
+    font-family: Alexandriaff-bold;
+    src: url(../fonts/alexandriaflf-bold.ttf);
+}
+
+@font-face {
+    font-family: Chunckfive;
+    src: url(../fonts/Chunckfive.otf);
+    src: url(../fonts/Chunckfive.ttf);
+}
+
+@font-face {
+    font-family: Colab;
+    src: url(../fonts/ColabBol.otf);
+    src: url(../fonts/ColabLig.otf);
+    src: url(../fonts/ColabReg.otf);
+    src: url(../fonts/ColabThi.otf);
+}
+
+@font-face {
+    font-family: Contra;
+    src: url(../fonts/contra-otalic.ttf);
+    src: url(../fonts/contra.ttf);
+}
+
+@font-face {
+    font-family: Flare;
+    src: url(../fonts/flare-light-gothic.ttf);
+}
+
+@font-face {
+    font-family: Freeport;
+    src: url(../fonts/freeport-plain.ttf);
+}

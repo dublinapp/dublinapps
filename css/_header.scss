@@ -1,0 +1,61 @@
+.header-wrapper {
+	//@include background-gradient(#1b1b2e, #e7e8ea);
+	  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #1b1b2e, #e7e8ea);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #1b1b2e, #e7e8ea);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #1b1b2e, #e7e8ea);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #1b1b2e, #e7e8ea);
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1b1b2e), to(#e7e8ea));
+	.navbar {
+		.navbar-header{
+			.logo{
+				margin-top: 27px;
+				margin-left: 60px;
+				font-size: 0px;
+				width: 238px;
+				height: 56px;
+				background-image: url(../img/logo.png);
+				background-repeat: no-repeat;
+			}
+		}
+		ul {
+			margin-right: 80px;
+			margin-top: 40px;
+			
+			li {
+				a {
+					margin: 0;
+					padding: 4px 18px;
+					color: #d7d7e3;
+					text-transform: uppercase;
+					font:{
+					family: 'Colab', serif;
+					size: 17px;
+					}
+
+					&:hover{
+					color: #161628;
+					background-color: #d2d2d5;
+					border-radius: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+ul.nav {
+	li.active{
+			background-color: #d2d2d5 !important;
+			border-radius: 5px;
+			a{
+				color: #161628;
+			}
+	}
+}

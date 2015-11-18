@@ -1,0 +1,28 @@
+#news-accordian {
+	ul{
+		//list-style-image: url(../img/bullet-plus.png);
+		margin-top: 47px;
+		margin-bottom: 35px;
+		li {
+			font-size: 15px;
+			font-family: 'colab';
+			color: #828181;
+			font-weight: 600;
+			.plus {
+				margin-right: 15px;
+				width: 14px;
+				height: 14px;
+				font-size: 0;
+				background-image: url(../img/bullet-plus.png);
+				background-size: cover;
+				//background-color:yellow;
+			}
+			padding:10px 0;
+			border-top: 1px solid #d7d8da;
+			//border-bottom: 1px solid #000;
+		}
+		li:nth-last-child(1){
+			border-bottom: 1px solid #d7d8da;
+		}
+	}
+}

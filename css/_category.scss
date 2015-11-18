@@ -1,0 +1,31 @@
+#category-wrapper {
+	//background-color: #e7e8ea;
+	margin-top: 46px;
+	margin-left: 30px;
+	img {
+		margin-right: 10px;
+		width: 33px;
+		height: 33px;
+	}
+	h3 {
+		margin-right: 20px;
+		line-height: 0.9;
+		font: {
+			size: 25px;
+			family: 'colab';
+			weight: bold;
+		}
+		small{
+			color: #5f7390;
+		}
+	}
+
+	p {
+		margin-top: 25px;
+		line-height: 1.5;
+		font: {
+			size: 14px;
+			family: 'colab';
+		}
+	}
+}

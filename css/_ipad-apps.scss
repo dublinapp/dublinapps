@@ -1,0 +1,47 @@
+.ipad-apps-wrapper {
+	margin-top: 100px;
+	//border: 1px solid #000;
+	//width: 960px; 
+	background-color: #e7e8ea;
+	@include border-radius-separate(5px,5px,0,0);
+	.well {
+		background-color: #dbdcdd;
+		@include border-radius-separate(5px,5px,0,0);
+		border-bottom: 1px solid #fff;
+		height: 100px;
+		.well-header {
+			margin-top: 15px;
+			h2{
+				color: #505050;
+				font: {
+					family: 'colab';
+					size: 27px;
+					weight: 600;
+				}
+			}
+			p {
+				margin-top: 1px;
+				color: #5f7390;
+				font-size: 15px;
+				font-family: 'colob';
+			}
+		}
+	}
+	#search {
+		width: 250px;
+		margin-top: 15px;
+		@include border-radius(50px);
+		margin-left: 100px;
+		padding-left: 35px;
+	}
+	.form-group{
+		span.glyphicon {
+		position: relative;
+			top: -20px;
+			@include opacity(0.5);
+			left: 110px;
+		//background-color: yellow;
+		}
+	}
+	
+}

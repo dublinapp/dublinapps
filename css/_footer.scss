@@ -1,0 +1,163 @@
+.footer-wrapper {
+	//height:300px;
+	//@include background-radial(#8e8ead,50%, #353546, 100%);
+	background:{
+		image: url(../img/footer-bg.png);
+		repeat: no-repeat;
+		size: cover;
+		color: #373748;
+	}
+	.footer-header {
+		//border-bottom: 1px solid #fff;
+		//margin: 0;
+
+		#twitter-logo {
+		margin-left: 70px;
+		margin-top:10px;
+		margin-bottom: 0;
+	}
+	.para {
+		margin-left: 180px;
+		position: relative;
+		top: -60px;
+		color: #ffffff;
+   		width: 760px; 
+   		line-height: 2;
+   		margin-bottom: 0;
+		font:{
+			size: 13px;
+			family: 'contra';
+			}
+	}
+	.right-text {
+			color: #ffffff;
+			margin-right: 200px;
+			position: relative;
+   			top: -60px;
+			font:{
+				size: 15px;
+				family: 'contra';
+				style: italic;
+			}
+		}
+	.line {
+		background-color: #57576a;
+		width: 960px;
+		@include opacity(0.1);
+		position: relative;
+		top: -60px;
+		//@include background-horizontal(#373749,#ffffff);
+		}
+	}
+
+	h2 {
+		position: relative;
+		top: -30px;
+		color: #ffffff;
+		font: {
+			size: 25px;
+			family: 'colab';
+		}
+	}
+
+	.header-title {
+		margin-left: 70px;
+	}
+	.header-body {
+		margin-left: 70px;
+
+		p {
+			width: 400px;
+			color: #ffffff;
+			line-height: 1.5;
+			font: {
+				size: 14px;
+				family: 'colab';
+			}
+		}
+		.form-1 {
+			#email {
+				background-color: #242439;
+				border-color: #363647;
+				@include border-radius(5px);
+				margin-top: 20px;
+				width: 200px;
+			}
+			button {
+				margin-left: 10px;
+				margin-top: 20px;
+				width: 100px;
+			}
+		}
+		.social-media {
+			margin-top: 20px;
+			a{
+				margin-right: 15px;
+				background-color: #464659;
+				padding: 10px 5px;
+				@include border-radius(50%);
+				&:hover {
+					background-color: #e7e8ea;
+				}
+				i{
+					position: relative;
+					top:5px;
+					left: 2px;
+					width: 30px;
+					height: 38px;
+				}
+				#fb-i {
+					position: relative;
+					top:5px;
+					width: 30px;
+					height: 38px;
+					left:5px;
+				}
+
+				}	
+				
+		}
+	}
+
+	.form-2{
+		position: relative;
+		top: -17px;
+		.form-group{
+			.form-control {
+				margin: 0;
+				background-color: #242439;
+				border-color: #363647;
+				@include border-radius(5px);
+				margin-top: 20px;
+				width: 250px;
+			}
+	
+		}
+		button{
+			 width: 100px;
+			 margin-left: 150px;
+			}
+	}
+		#message{
+					height: 145px;		
+		}
+
+	.footer-info {
+		color: #e7e8ea;
+		a{
+			color: #fff;
+			font-weight: bold;
+			&:hover{
+				color: #000;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+		.breadcrumb{
+			background: none;
+		}
+	}
+}
+
+
+	

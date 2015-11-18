@@ -1,0 +1,52 @@
+#slider-wrapper {
+	background-color: #e7e8ea;
+	.item {
+		margin: 0;
+		margin-top: 40px;
+		.caption{
+			/*background : {
+				image: url(../img/slider-bg.png);
+				repeat: no-repeat;
+				size: cover;
+					}*/
+			margin: 0 auto;
+			width: 700px;
+			height: 80px;
+			@include background-radial(#fff,-30%, #e7e9eb,70%);
+			p {
+				border-top: 1px solid #ebebed;
+				border-bottom: 1px solid #ebebed;
+				margin-right: 50px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				text-align: center;
+				color: #828181;
+				font-size: 16px;
+				line-height: 1.3;
+			}
+		}
+	}
+	.arrow-left-2 {
+	position: relative;
+	margin-top: 55px;
+	left: 200px;
+	width:39px;
+	height: 39px;
+	background :{
+		image: url(../img/arrow-left-2.png);
+		repeat: no-repeat;
+		}
+	}
+
+	.arrow-right-2 {
+	position: relative;
+	right: 200px;
+	margin-top: 55px;
+	width:39px;
+	height: 39px;
+	background :{
+		image: url(../img/arrow-right-2.png);
+		repeat: no-repeat;
+		}
+	}
+}
